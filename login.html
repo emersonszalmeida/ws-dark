@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="registro.css" />
+    <!-- Usando o mesmo CSS -->
+    <script defer src="script.js"></script>
+    <!-- Referência ao mesmo script -->
+    <title>Login</title>
+  </head>
+  <body>
+    <!-- Barra Superior -->
+    <div class="top-bar">
+      <div class="container">
+        <a href="#" class="top-link">Discord</a>
+        <a href="#" class="top-link">Instagram</a>
+        <a href="registro.html" class="top-link">Registro</a>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="logo">WS Trade</div>
+        <!-- Menu principal -->
+        <nav>
+          <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#itens">Itens</a></li>
+            <li><a href="#contas">Contas</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+        <!-- Botão do menu responsivo -->
+        <button class="menu-toggle" aria-label="Abrir menu">
+          <span class="hamburger"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Formulário de Login -->
+    <div class="form-container">
+      <h2>Login</h2>
+      <form action="#" method="POST">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Digite seu email"
+        />
+
+        <label for="password">Senha</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Digite sua senha"
+        />
+
+        <button type="submit">Entrar</button>
+      </form>
+      <p>Não tem uma conta? <a href="registro.html">Registre-se</a></p>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+      <p>&copy; 2024 MeuSite. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
